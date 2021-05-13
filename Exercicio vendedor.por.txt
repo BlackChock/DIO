@@ -1,0 +1,27 @@
+programa 
+{
+	funcao inicio()
+	{
+		real vendas1,vendas2,vendas3,vendas4,soma,media
+		cadeia funcionario
+		
+		escreva("Insira o nome do funcionário: ")
+		leia(funcionario)
+		escreva("Insira o valor total de vendas do vendedor no mês de janeiro: ")
+		leia(vendas1)
+		escreva("Insira o valor total de vendas do vendedor no mês de fevereiro: ")
+		leia(vendas2)
+		escreva("Insira o valor total de vendas do vendedor no mês de março: ")
+		leia(vendas3)
+		escreva("Insira o valor total de vendas do vendedor no mês de abril: ")
+		leia(vendas4)
+		
+		soma = (vendas1+vendas2+vendas3+vendas4)
+		
+		media = (vendas1+vendas2+vendas3+vendas4)/4
+		
+		escreva("O funcionário " + funcionario + " faturou em vendas para a empresa o total de R$: " + soma + " e teve uma média mensal de vendas de R$: " + media )
+		
+		
+	}
+}
