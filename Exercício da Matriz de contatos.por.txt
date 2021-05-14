@@ -1,0 +1,24 @@
+
+//Código com mariz e vetor exemplo de lista de contatos
+//Autor: Carlos Correia Pinto
+//Digital Inovation One
+programa
+{
+	funcao inicio ()
+	{
+		inteiro contador=0
+		
+		//Matriz de informação dos contatos
+		cadeia lista[][]={{"João","São Paulo","(11)9999-5241"},{"Maria","Ribeirão Preto","(16)9999-8596"},{"Ana","Manaus","(92)9999-8574"}}
+		
+		faca{
+			
+			//Célula de direcionamento de informações
+			escreva ("Nome: " + lista[contador][0] + " Cidade: " + lista[contador][1] + " Contato: " + lista[contador][2] + "\n")
+			contador++
+			
+		}enquanto(contador<=2)
+		
+		
+	}
+}

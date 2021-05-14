@@ -1,0 +1,35 @@
+//A função do algorítimo é calcular a média aritiméica das notas do aluno
+//Autor: Carlos Correia Pinto
+
+programa 
+{
+	funcao inicio()
+	{
+		real nota1,nota2,nota3,nota4,media
+		cadeia aluno
+		//Área de incersão de dados
+		escreva("Digite o nome do aluno: ")
+		leia(aluno)
+		escreva("\n" + "Digite a nota 1: ")
+		leia(nota1)
+		escreva("Digite a nota 2: ")
+		leia(nota2)
+		escreva("Digite a nota 3: ")
+		leia(nota3)
+		escreva("Digite a nota 4: ")
+		leia(nota4)
+		//Cálculo da média
+		media = (nota1+nota2+nota3+nota4)/4
+		//Descrição da resposta do algorítimo
+		escreva("\n" + "O aluno " + aluno + " obteve a média: " + media)
+		//Verifica se a média é maior ou igual a 7
+		escreva("\n")
+		se(media>=7) {
+			escreva("\n" + "Que maravilha, o aluno foi aprovado!!!")
+	}
+		//Caso a média seja menor do que 7
+		senao {
+			escreva("\n" + "Infelizmente o aluno foi reprovado ;(")
+		}
+	}
+}

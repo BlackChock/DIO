@@ -1,0 +1,29 @@
+//A função do algorítimo é calcular tabuada
+//Autor: Carlos Correia Pinto
+
+programa 
+{
+	funcao inicio()
+	{
+		inteiro contador,limite,resultado,numero
+		
+		contador = 0
+		
+		escreva("Vamos praticar a tabuada?" + "\n\n")
+		//local de incersão do número que vai ser multiplicado
+		escreva("Por favor, insira o número que vai ser multiplicado: ")
+		leia(numero)
+		//local de incersão de miltiplicador
+		escreva("\n" + "Agora digite o número de vezes que você quer de multiplicações: ")
+		leia(limite)
+		
+		faca{
+			
+			resultado = numero * contador
+			escreva ("Então temos que: " + numero + " x " + contador + " = " + resultado + "\n")
+			contador ++
+			
+		//determinação do alcance	
+		}enquanto (contador<=limite)
+	}
+}

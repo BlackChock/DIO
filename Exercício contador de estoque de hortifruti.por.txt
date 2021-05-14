@@ -1,0 +1,24 @@
+//A função do algorítimo é calcular tabuada
+//Autor: Carlos Correia Pinto
+
+programa 
+{
+	funcao inicio()
+	{
+		cadeia [4]
+		inteiro contador = 0
+		
+		frutas[0]="Goiaba"
+		frutas[1]="Caju"
+		frutas[2]="Uva"
+		frutas[3]="Manga"
+		
+		faca{
+			
+			escreva(frutas[contador] + "\n")
+			contador++
+		}
+		
+		enquanto (contador<=3)
+	}
+}
